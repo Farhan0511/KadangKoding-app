@@ -1,16 +1,53 @@
-# React + Vite
+# KadangKoding Store 🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website e-commerce untuk penjualan baju fashion khusus anak muda. Dibangun menggunakan React + Vite dengan tampilan modern, cepat, dan responsive di semua perangkat.
 
-Currently, two official plugins are available:
+## ✨ Fitur
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Landing page dengan tampilan produk unggulan
+- Navigasi responsive (desktop & mobile)
+- Halaman About Us, Products, Testimonials, dan Contact
+- Desain modern menggunakan Tailwind CSS & shadcn/ui
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** – library UI
+- **Vite** – build tool & dev server
+- **Tailwind CSS** – styling
+- **shadcn/ui** – komponen UI
 
-## Expanding the ESLint configuration
+## 🚀 Cara Menjalankan Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone repository ini
+```bash
+   git clone <url-repo-kamu>
+   cd kadangkoding-app
+```
+
+2. Install dependencies
+```bash
+   npm install
+```
+
+3. Jalankan development server
+```bash
+   npm run dev
+```
+
+4. Buka browser dan akses `http://localhost:5173`
+
+## 📦 Build untuk Production
+
+```bash
+npm run build
+```
+
+## 📁 Struktur Folder
+src/
+├── components/ # Komponen UI (Navbar, Hero, Footer, dll)
+├── pages/ # Halaman-halaman website
+└── App.jsx # Entry point utama
+
+## 📝 Lisensi
+
+Project ini dibuat untuk keperluan pembelajaran dan pengembangan bisnis pribadi.
