@@ -1,3 +1,5 @@
+import AspectRatioSquare from "@/components/atoms/AspectRatio";
+
 export default function OurFavorite() {
   return (
     <div className="container mx-auto px-4 py-8">
@@ -10,6 +12,13 @@ export default function OurFavorite() {
         We are inspired by the realities of life today, in which traditional
         divides between personal and professional space are more fluid.
       </p>
+
+      {/* Favorite items will be rendered here */}
+      <div className="flex flex-wrap justify-center gap-4 mt-8">
+        <div>
+          <AspectRatioSquare />
+        </div>
+      </div>
     </div>
   );
 }
