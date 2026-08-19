@@ -1,4 +1,5 @@
 import AboutPages from "@/components/atoms/AboutPages";
+import Value from "@/components/atoms/Value";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
@@ -18,7 +19,9 @@ export default function About() {
       </main>
 
       <AboutPages/>
+      <Value />
 
+      
       <Footer />
     </div>
   );
